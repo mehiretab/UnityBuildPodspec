@@ -178,9 +178,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'Libraries/libil2cpp/include/vm/**/*'
   end
 
-  s.subspec 'Libraries/libil2cpp/include/vm-utils' do |ss|
-    ss.source_files = 'Libraries/libil2cpp/include/vm-utils/**/*'
-  end
+  # s.subspec 'Libraries/libil2cpp/include/vm-utils' do |ss|
+  #   ss.source_files = 'Libraries/libil2cpp/include/vm-utils/**/*'
+  # end
 
   # s.resource_bundles = {
   #   'MyCocoapodsLibrary' => ['MyCocoapodsLibrary/Assets/*.png']
